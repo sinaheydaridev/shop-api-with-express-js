@@ -43,5 +43,3 @@ describe("User Auth Controller", () => {
     expect(response.body.token).not.toBeNull();
   });
 });
-
-// expect(undefined).toBeTruthy(); // این میاد چک میکنه مقداری که بهش میدیم مخالف تعریف نشده باشه
